@@ -1,0 +1,676 @@
+[
+  {
+    "year": 1930,
+    "wikipediapage": "1930 FIFA World Cup",
+    "host": [
+      "Uruguay"
+    ],
+    "beginning": "1930-07-13",
+    "ending": "1930-07-30",
+    "teamcount": 13,
+    "venues": [
+      "Estadio Centenario",
+      "Estadio Gran Parque Central",
+      "Estadio Pocitos"
+    ],
+    "champions": "Uruguay",
+    "secondplace": "Argentina",
+    "thirdplace": "United States",
+    "fourthplace": "Yugoslavia",
+    "matchcount": 18,
+    "goalcount": 70,
+    "attendance": 590549,
+    "topscorer": [
+      "Guillermo Stábile"
+    ]
+  },
+  {
+    "year": 1934,
+    "wikipediapage": "1934 FIFA World Cup",
+    "host": [
+      "Italy"
+    ],
+    "beginning": "1934-05-27",
+    "ending": "1934-06-10",
+    "teamcount": 16,
+    "venues": [
+      "Stadio San Siro",
+      "Stadio Littoriale",
+      "Stadio Nazionale PNF",
+      "Stadio Giovanni Berta",
+      "Stadio Giorgio Ascarelli",
+      "Stadio Luigi Ferraris",
+      "Stadio Benito Mussolini",
+      "Stadio Littorio"
+    ],
+    "champions": "Italy",
+    "secondplace": "Czechoslovakia",
+    "thirdplace": "Germany",
+    "fourthplace": "Austria",
+    "matchcount": 17,
+    "goalcount": 70,
+    "attendance": 363000,
+    "topscorer": [
+      "Oldřich Nejedlý"
+    ]
+  },
+  {
+    "year": 1938,
+    "wikipediapage": "1938 FIFA World Cup",
+    "host": [
+      "France"
+    ],
+    "beginning": "1938-06-04",
+    "ending": "1938-06-19",
+    "teamcount": 15,
+    "venues": [
+      "Stade Olympique de Colombes",
+      "Stade Vélodrome",
+      "Parc des Princes",
+      "Parc Lescure",
+      "Stade de la Meinau",
+      "Stade Municipal",
+      "Vélodrome Municipal",
+      "Stade du T.O.E.C.",
+      "Stade Victor Boucquey",
+      "Stade du Fort Carré"
+    ],
+    "champions": "Italy",
+    "secondplace": "Hungary",
+    "thirdplace": "Brazil",
+    "fourthplace": "Sweden",
+    "matchcount": 18,
+    "goalcount": 84,
+    "attendance": 374835,
+    "topscorer": [
+      "Leônidas da Silva"
+    ]
+  },
+  {
+    "year": 1950,
+    "wikipediapage": "1950 FIFA World Cup",
+    "host": [
+      "Brazil"
+    ],
+    "beginning": "1950-06-24",
+    "ending": "1950-07-16",
+    "teamcount": 13,
+    "venues": [
+      "Estádio do Maracanã",
+      "Estádio do Pacaembu",
+      "Estádio Sete de Setembro",
+      "Estádio dos Eucaliptos",
+      "Estádio Ilha do Retiro",
+      "Estádio Vila Capanema"
+    ],
+    "champions": "Uruguay",
+    "secondplace": "Brazil",
+    "thirdplace": "Sweden",
+    "fourthplace": "Spain",
+    "matchcount": 22,
+    "goalcount": 88,
+    "attendance": 1045246,
+    "topscorer": [
+      "Ademir de Menezes"
+    ]
+  },
+  {
+    "year": 1954,
+    "wikipediapage": "1954 FIFA World Cup",
+    "host": [
+      "Switzerland"
+    ],
+    "beginning": "1954-06-16",
+    "ending": "1954-07-04",
+    "teamcount": 16,
+    "venues": [
+      "Wankdorf Stadium",
+      "St. Jakob Stadium",
+      "Stade olympique de la Pontaise",
+      "Charmilles Stadium",
+      "Cornaredo Stadium",
+      "Hardturm Stadium"
+    ],
+    "champions": "West Germany",
+    "secondplace": "Hungary",
+    "thirdplace": "Austria",
+    "fourthplace": "Uruguay",
+    "matchcount": 26,
+    "goalcount": 140,
+    "attendance": 768607,
+    "topscorer": [
+      "Sándor Kocsis"
+    ]
+  },
+  {
+    "year": 1958,
+    "wikipediapage": "1958 FIFA World Cup",
+    "host": [
+      "Sweden"
+    ],
+    "beginning": "1958-06-08",
+    "ending": "1958-06-29",
+    "teamcount": 16,
+    "venues": [
+      "Ullevi Stadium",
+      "Råsunda Stadium",
+      "Malmö Stadion",
+      "Olympia",
+      "Tunavallen",
+      "Idrottsparken",
+      "Jernvallen",
+      "Rimnersvallen",
+      "Ryavallen",
+      "Örjans Vall",
+      "Eyravallen",
+      "Arosvallen"
+    ],
+    "champions": "Brazil",
+    "secondplace": "Sweden",
+    "thirdplace": "France",
+    "fourthplace": "West Germany",
+    "matchcount": 35,
+    "goalcount": 126,
+    "attendance": 819810,
+    "topscorer": [
+      "Just Fontaine"
+    ]
+  },
+  {
+    "year": 1962,
+    "wikipediapage": "1962 FIFA World Cup",
+    "host": [
+      "Chile"
+    ],
+    "beginning": "1962-05-30",
+    "ending": "1962-06-17",
+    "teamcount": 16,
+    "venues": [
+      "Estadio Nacional",
+      "Estadio Sausalito",
+      "Estadio Braden Copper Co.",
+      "Estadio Carlos Dittborn"
+    ],
+    "champions": "Brazil",
+    "secondplace": "Czechoslovakia",
+    "thirdplace": "Chile",
+    "fourthplace": "Yugoslavia",
+    "matchcount": 32,
+    "goalcount": 89,
+    "attendance": 893172,
+    "topscorer": [
+      "Garrincha",
+      "Vavá",
+      "Leonel Sánchez",
+      "Flórián Albert",
+      "Valentin Ivanov",
+      "Dražan Jerković"
+    ]
+  },
+  {
+    "year": 1966,
+    "wikipediapage": "1966 FIFA World Cup",
+    "host": [
+      "England"
+    ],
+    "beginning": "1966-07-11",
+    "ending": "1966-07-30",
+    "teamcount": 16,
+    "venues": [
+      "Wembley Stadium",
+      "Old Trafford",
+      "Goodison Park",
+      "Roker Park",
+      "White City Stadium",
+      "Villa Park",
+      "Hillsborough Stadium",
+      "Ayresome Park"
+    ],
+    "champions": "England",
+    "secondplace": "West Germany",
+    "thirdplace": "Portugal",
+    "fourthplace": "Soviet Union",
+    "matchcount": 32,
+    "goalcount": 89,
+    "attendance": 1563135,
+    "topscorer": [
+      "Eusébio"
+    ]
+  },
+  {
+    "year": 1970,
+    "wikipediapage": "1970 FIFA World Cup",
+    "host": [
+      "Mexico"
+    ],
+    "beginning": "1970-05-31",
+    "ending": "1970-06-21",
+    "teamcount": 16,
+    "venues": [
+      "Estadio Azteca",
+      "Estadio Jalisco",
+      "Estadio Cuauhtémoc",
+      "Estadio Luis Dosal",
+      "Estadio Nou Camp"
+    ],
+    "champions": "Brazil",
+    "secondplace": "Italy",
+    "thirdplace": "West Germany",
+    "fourthplace": "Uruguay",
+    "matchcount": 32,
+    "goalcount": 95,
+    "attendance": 1604065,
+    "topscorer": [
+      "Gerd Müller"
+    ]
+  },
+  {
+    "year": 1974,
+    "wikipediapage": "1974 FIFA World Cup",
+    "host": [
+      "West Germany"
+    ],
+    "beginning": "1974-06-13",
+    "ending": "1974-07-07",
+    "teamcount": 16,
+    "venues": [
+      "Olympiastadion Berlin",
+      "Olympiastadion Munich",
+      "Neckarstadion",
+      "Parkstadion",
+      "Rheinstadion",
+      "Waldstadion",
+      "Volksparkstadion",
+      "Niedersachsenstadion",
+      "Westfalenstadion"
+    ],
+    "champions": "West Germany",
+    "secondplace": "Netherlands",
+    "thirdplace": "Poland",
+    "fourthplace": "Brazil",
+    "matchcount": 38,
+    "goalcount": 97,
+    "attendance": 1865762,
+    "topscorer": [
+      "Grzegorz Lato"
+    ]
+  },
+  {
+    "year": 1978,
+    "wikipediapage": "1978 FIFA World Cup",
+    "host": [
+      "Argentina"
+    ],
+    "beginning": "1978-06-01",
+    "ending": "1978-06-25",
+    "teamcount": 16,
+    "venues": [
+      "Estadio Monumental",
+      "José Amalfitani Stadium",
+      "Estadio Chateau Carreras",
+      "Estadio José María Minella",
+      "Estadio Gigante de Arroyito",
+      "Estadio Ciudad de Mendoza"
+    ],
+    "champions": "Argentina",
+    "secondplace": "Netherlands",
+    "thirdplace": "Brazil",
+    "fourthplace": "Italy",
+    "matchcount": 38,
+    "goalcount": 102,
+    "attendance": 1545791,
+    "topscorer": [
+      "Mario Kempes"
+    ]
+  },
+  {
+    "year": 1982,
+    "wikipediapage": "1982 FIFA World Cup",
+    "host": [
+      "Spain"
+    ],
+    "beginning": "1982-06-13",
+    "ending": "1982-07-11",
+    "teamcount": 24,
+    "venues": [
+      "Camp Nou",
+      "Sarrià",
+      "Santiago Bernabéu",
+      "Vicente Calderón",
+      "Ramón Sánchez Pizjuán",
+      "Nuevo Estadio",
+      "Benito Villamarín",
+      "Luis Casanova",
+      "San Mamés",
+      "El Molinón",
+      "La Rosaleda",
+      "La Romareda",
+      "Riazor",
+      "Balaídos",
+      "José Rico Pérez",
+      "José Zorrilla",
+      "Carlos Tartiere"
+    ],
+    "champions": "Italy",
+    "secondplace": "West Germany",
+    "thirdplace": "Poland",
+    "fourthplace": "France",
+    "matchcount": 52,
+    "goalcount": 146,
+    "attendance": 2109723,
+    "topscorer": [
+      "Paolo Rossi"
+    ]
+  },
+  {
+    "year": 1986,
+    "wikipediapage": "1986 FIFA World Cup",
+    "host": [
+      "Mexico"
+    ],
+    "beginning": "1986-05-31",
+    "ending": "1986-06-29",
+    "teamcount": 24,
+    "venues": [
+      "Estadio Azteca",
+      "Estadio Olímpico Universitario",
+      "Estadio Jalisco",
+      "Estadio Cuauhtémoc",
+      "Estadio Universitario",
+      "Estadio La Corregidora",
+      "Estadio Neza 86",
+      "Estadio Tecnológico",
+      "Estadio Nemesio Díez",
+      "Estadio Sergio León Chávez",
+      "Estadio Nou Camp",
+      "Estadio Tres de Marzo"
+    ],
+    "champions": "Argentina",
+    "secondplace": "West Germany",
+    "thirdplace": "France",
+    "fourthplace": "Belgium",
+    "matchcount": 52,
+    "goalcount": 132,
+    "attendance": 2394031,
+    "topscorer": [
+      "Gary Lineker"
+    ]
+  },
+  {
+    "year": 1990,
+    "wikipediapage": "1990 FIFA World Cup",
+    "host": [
+      "Italy"
+    ],
+    "beginning": "1990-06-08",
+    "ending": "1990-07-08",
+    "teamcount": 24,
+    "venues": [
+      "San Siro",
+      "Stadio Olimpico",
+      "Stadio delle Alpi",
+      "Stadio San Paolo",
+      "Stadio San Nicola",
+      "Stadio Comunale",
+      "Stadio Marc''Antonio Bentegodi",
+      "Stadio Friuli",
+      "Stadio Sant''Elia",
+      "Stadio Renato Dall''Ara",
+      "Stadio La Favorita",
+      "Stadio Luigi Ferraris"
+    ],
+    "champions": "West Germany",
+    "secondplace": "Argentina",
+    "thirdplace": "Italy",
+    "fourthplace": "England",
+    "matchcount": 52,
+    "goalcount": 115,
+    "attendance": 2516215,
+    "topscorer": [
+      "Salvatore Schillaci"
+    ]
+  },
+  {
+    "year": 1994,
+    "wikipediapage": "1994 FIFA World Cup",
+    "host": [
+      "United States"
+    ],
+    "beginning": "1994-06-17",
+    "ending": "1994-07-17",
+    "teamcount": 24,
+    "venues": [
+      "Rose Bowl",
+      "Stanford Stadium",
+      "Pontiac Silverdome",
+      "Giants Stadium",
+      "Cotton Bowl",
+      "Soldier Field",
+      "Citrus Bowl",
+      "Foxboro Stadium",
+      "Robert F. Kennedy Memorial Stadium"
+    ],
+    "champions": "Brazil",
+    "secondplace": "Italy",
+    "thirdplace": "Sweden",
+    "fourthplace": "Bulgaria",
+    "matchcount": 52,
+    "goalcount": 141,
+    "attendance": 3597042,
+    "topscorer": [
+      "Hristo Stoichkov",
+      "Oleg Salenko"
+    ]
+  },
+  {
+    "year": 1998,
+    "wikipediapage": "1998 FIFA World Cup",
+    "host": [
+      "France"
+    ],
+    "beginning": "1998-06-10",
+    "ending": "1998-07-12",
+    "teamcount": 32,
+    "venues": [
+      "Stade de France",
+      "Stade Vélodrome",
+      "Parc des Princes",
+      "Stade de Gerland",
+      "Stade Félix-Bollaert",
+      "Stade de la Beaujoire",
+      "Stadium de Toulouse",
+      "Stade Geoffroy-Guichard",
+      "Parc Lescure",
+      "Stade de la Mosson"
+    ],
+    "champions": "France",
+    "secondplace": "Brazil",
+    "thirdplace": "Croatia",
+    "fourthplace": "Netherlands",
+    "matchcount": 64,
+    "goalcount": 171,
+    "attendance": 2784687,
+    "topscorer": [
+      "Davor Šuker"
+    ]
+  },
+  {
+    "year": 2002,
+    "wikipediapage": "2002 FIFA World Cup",
+    "host": [
+      "South Korea",
+      "Japan"
+    ],
+    "beginning": "2002-05-31",
+    "ending": "2002-06-30",
+    "teamcount": 32,
+    "venues": [
+      "Daegu World Cup Stadium",
+      "Seoul World Cup Stadium",
+      "Busan Asiad Stadium",
+      "Incheon World Cup Stadium",
+      "Ulsan Munsu Football Stadium",
+      "Suwon World Cup Stadium",
+      "Gwangju World Cup Stadium",
+      "Jeonju World Cup Stadium",
+      "Jeju World Cup Stadium",
+      "Daejeon World Cup Stadium",
+      "International Stadium Yokohama",
+      "Saitama Stadium",
+      "Shizuoka Stadium ECOPA",
+      "Nagai Stadium",
+      "Miyagi Stadium",
+      "Ōita Stadium",
+      "Niigata Stadium",
+      "Kashima Stadium",
+      "Kobe Wing Stadium",
+      "Sapporo Dome"
+    ],
+    "champions": "Brazil",
+    "secondplace": "Germany",
+    "thirdplace": "Turkey",
+    "fourthplace": "South Korea",
+    "matchcount": 64,
+    "goalcount": 161,
+    "attendance": 2705197,
+    "topscorer": [
+      "Ronaldo"
+    ]
+  },
+  {
+    "year": 2006,
+    "wikipediapage": "2006 FIFA World Cup",
+    "host": [
+      "Germany"
+    ],
+    "beginning": "2006-06-09",
+    "ending": "2006-07-09",
+    "teamcount": 32,
+    "venues": [
+      "Olympiastadion",
+      "Allianz Arena",
+      "Signal Iduna Park",
+      "Gottlieb-Daimler-Stadion",
+      "Arena AufSchalke",
+      "AOL Arena",
+      "Commerzbank-Arena",
+      "Fritz-Walter-Stadion",
+      "RheinEnergieStadion",
+      "AWD-Arena,Zentralstadion",
+      "easyCredit-Stadion"
+    ],
+    "champions": "Italy",
+    "secondplace": "France",
+    "thirdplace": "Germany",
+    "fourthplace": "Portugal",
+    "matchcount": 64,
+    "goalcount": 147,
+    "attendance": 3359439,
+    "topscorer": [
+      "Miroslav Klose"
+    ]
+  },
+  {
+    "year": 2010,
+    "wikipediapage": "2010 FIFA World Cup",
+    "host": [
+      "South Africa"
+    ],
+    "beginning": "2010-06-11",
+    "ending": "2010-07-11",
+    "teamcount": 32,
+    "venues": [
+      "FNB Stadium",
+      "Ellis Park Stadium",
+      "Cape Town Stadium",
+      "Moses Mabhida Stadium",
+      "Loftus Versfeld Stadium",
+      "Nelson Mandela Bay Stadium",
+      "Peter Mokaba Stadium",
+      "Mbombela Stadium",
+      "Free State Stadium",
+      "Royal Bafokeng Stadium"
+    ],
+    "champions": "Spain",
+    "secondplace": "Netherlands",
+    "thirdplace": "Germany",
+    "fourthplace": "Uruguay",
+    "matchcount": 64,
+    "goalcount": 145,
+    "attendance": 3178856,
+    "topscorer": [
+      "Diego Forlán",
+      "Thomas Müller",
+      "Wesley Sneijder",
+      "David Villa"
+    ]
+  },
+  {
+    "year": 2014,
+    "wikipediapage": "2014 FIFA World Cup",
+    "host": [
+      "Brazil"
+    ],
+    "beginning": "2014-06-12",
+    "ending": "2014-07-13",
+    "teamcount": 32,
+    "venues": [
+      "Estádio do Maracanã",
+      "Estádio Nacional",
+      "Arena de São Paulo",
+      "Estádio Castelão",
+      "Estádio Mineirão",
+      "Estádio Beira-Rio",
+      "Arena Fonte Nova",
+      "Arena Pernambuco",
+      "Arena Pantanal",
+      "Arena da Amazônia",
+      "Arena das Dunas",
+      "Arena da Baixada"
+    ],
+    "champions": "Germany",
+    "secondplace": "Argentina",
+    "thirdplace": "Netherlands",
+    "fourthplace": "Brazil",
+    "matchcount": 64,
+    "goalcount": 171,
+    "attendance": 3429873,
+    "topscorer": [
+      "James Rodríguez"
+    ]
+  },
+  {
+    "year": 2018,
+    "wikipediapage": "2018 FIFA World Cup",
+    "host": [
+      "Russia"
+    ],
+    "beginning": "2018-06-14",
+    "ending": "2018-07-15",
+    "teamcount": 32,
+    "venues": [
+      "Luzhniki Stadium",
+      "Otkritie Arena",
+      "Krestovsky Stadium",
+      "Fisht Olympic Stadium",
+      "Volgograd Arena",
+      "Nizhny Novgorod Stadium",
+      "Rostov Arena",
+      "Kazan Arena",
+      "Samara Arena",
+      "Mordovia Arena",
+      "Kaliningrad Stadium",
+      "Central Stadium"
+    ],
+    "champions": "France",
+    "secondplace": "Croatia",
+    "thirdplace": "Belgium",
+    "fourthplace": "England",
+    "matchcount": 64,
+    "goalcount": 169,
+    "attendance": 3031768,
+    "topscorer": [
+      "Harry Kane"
+    ]
+  }
+]
