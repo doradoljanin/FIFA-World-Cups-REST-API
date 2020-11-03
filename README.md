@@ -1,7 +1,7 @@
 # FIFA World Cups Data Repository
 
 ### Details
-This is the data repository for **FIFA World Cups** operated by Dora Doljanin, a *student* of University of Zagreb, Faculty of Electrical Engineering and Computing. The repository was created on **October 20, 2020**.
+This is the data repository for **FIFA World Cups**, *version 2.0*, operated by Dora Doljanin, a *student* of University of Zagreb, Faculty of Electrical Engineering and Computing. The repository is written in **English** and created on **October 20, 2020**.
 
 ### Description
 This repository contains details about all FIFA World Cups which *preceded the moment of its creation (October 2020)*, including:
