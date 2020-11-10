@@ -1,0 +1,1374 @@
+[
+  {
+    "year": 1930,
+    "wikipediapage": "1930 FIFA World Cup",
+    "host": "Uruguay",
+    "beginning": "1930-07-13",
+    "ending": "1930-07-30",
+    "teamcount": 13,
+    "champions": "Uruguay",
+    "secondplace": "Argentina",
+    "thirdplace": "United States",
+    "fourthplace": "Yugoslavia",
+    "matchcount": 18,
+    "goalcount": 70,
+    "attendance": 590549,
+    "venues": [
+      {
+        "name": "Estadio Pocitos",
+        "city": "Montevideo",
+        "capacity": 10000
+      },
+      {
+        "name": "Estadio Centenario",
+        "city": "Montevideo",
+        "capacity": 90000
+      },
+      {
+        "name": "Estadio Gran Parque Central",
+        "city": "Montevideo",
+        "capacity": 20000
+      }
+    ]
+  },
+  {
+    "year": 1934,
+    "wikipediapage": "1934 FIFA World Cup",
+    "host": "Italy",
+    "beginning": "1934-05-27",
+    "ending": "1934-06-10",
+    "teamcount": 16,
+    "champions": "Italy",
+    "secondplace": "Czechoslovakia",
+    "thirdplace": "Germany",
+    "fourthplace": "Austria",
+    "matchcount": 17,
+    "goalcount": 70,
+    "attendance": 363000,
+    "venues": [
+      {
+        "name": "Stadio Giorgio Ascarelli",
+        "city": "Naples",
+        "capacity": 40000
+      },
+      {
+        "name": "Stadio Benito Mussolini",
+        "city": "Turin",
+        "capacity": 28140
+      },
+      {
+        "name": "Stadio San Siro",
+        "city": "Milan",
+        "capacity": 55000
+      },
+      {
+        "name": "Stadio Littoriale",
+        "city": "Bologna",
+        "capacity": 50100
+      },
+      {
+        "name": "Stadio Nazionale PNF",
+        "city": "Rome",
+        "capacity": 47300
+      },
+      {
+        "name": "Stadio Littorio",
+        "city": "Trieste",
+        "capacity": 8000
+      },
+      {
+        "name": "Stadio Luigi Ferraris",
+        "city": "Genoa",
+        "capacity": 36703
+      },
+      {
+        "name": "Stadio Giovanni Berta",
+        "city": "Florence",
+        "capacity": 47290
+      }
+    ]
+  },
+  {
+    "year": 1938,
+    "wikipediapage": "1938 FIFA World Cup",
+    "host": "France",
+    "beginning": "1938-06-04",
+    "ending": "1938-06-19",
+    "teamcount": 15,
+    "champions": "Italy",
+    "secondplace": "Hungary",
+    "thirdplace": "Brazil",
+    "fourthplace": "Sweden",
+    "matchcount": 18,
+    "goalcount": 84,
+    "attendance": 374835,
+    "venues": [
+      {
+        "name": "Stade du Fort Carré",
+        "city": "Antibes",
+        "capacity": 7000
+      },
+      {
+        "name": "Parc des Princes",
+        "city": "Paris",
+        "capacity": 40000
+      },
+      {
+        "name": "Stade Municipal",
+        "city": "Le Havre",
+        "capacity": 22000
+      },
+      {
+        "name": "Vélodrome Municipal",
+        "city": "Reims",
+        "capacity": 21684
+      },
+      {
+        "name": "Stade de la Meinau",
+        "city": "Strasbourg",
+        "capacity": 30000
+      },
+      {
+        "name": "Stade Vélodrome",
+        "city": "Marseille",
+        "capacity": 48000
+      },
+      {
+        "name": "Stade Olympique de Colombes",
+        "city": "Colombes",
+        "capacity": 60000
+      },
+      {
+        "name": "Stade Victor Boucquey",
+        "city": "Lille",
+        "capacity": 15000
+      },
+      {
+        "name": "Stade du T.O.E.C.",
+        "city": "Toulouse",
+        "capacity": 15000
+      },
+      {
+        "name": "Parc Lescure",
+        "city": "Bordeaux",
+        "capacity": 34694
+      }
+    ]
+  },
+  {
+    "year": 1950,
+    "wikipediapage": "1950 FIFA World Cup",
+    "host": "Brazil",
+    "beginning": "1950-06-24",
+    "ending": "1950-07-16",
+    "teamcount": 13,
+    "champions": "Uruguay",
+    "secondplace": "Brazil",
+    "thirdplace": "Sweden",
+    "fourthplace": "Spain",
+    "matchcount": 22,
+    "goalcount": 88,
+    "attendance": 1045246,
+    "venues": [
+      {
+        "name": "Estádio dos Eucaliptos",
+        "city": "Porto Alegre",
+        "capacity": 20000
+      },
+      {
+        "name": "Estádio Vila Capanema",
+        "city": "Curitiba",
+        "capacity": 10000
+      },
+      {
+        "name": "Estádio Ilha do Retiro",
+        "city": "Recife",
+        "capacity": 20000
+      },
+      {
+        "name": "Estádio do Pacaembu",
+        "city": "São Paulo",
+        "capacity": 60000
+      },
+      {
+        "name": "Estádio Sete de Setembro",
+        "city": "Belo Horizonte",
+        "capacity": 30000
+      },
+      {
+        "name": "Estádio do Maracanã",
+        "city": "Rio de Janeiro",
+        "capacity": 200000
+      }
+    ]
+  },
+  {
+    "year": 1954,
+    "wikipediapage": "1954 FIFA World Cup",
+    "host": "Switzerland",
+    "beginning": "1954-06-16",
+    "ending": "1954-07-04",
+    "teamcount": 16,
+    "champions": "West Germany",
+    "secondplace": "Hungary",
+    "thirdplace": "Austria",
+    "fourthplace": "Uruguay",
+    "matchcount": 26,
+    "goalcount": 140,
+    "attendance": 768607,
+    "venues": [
+      {
+        "name": "St. Jakob Stadium",
+        "city": "Basel",
+        "capacity": 54800
+      },
+      {
+        "name": "Hardturm Stadium",
+        "city": "Zürich",
+        "capacity": 34800
+      },
+      {
+        "name": "Wankdorf Stadium",
+        "city": "Bern",
+        "capacity": 64600
+      },
+      {
+        "name": "Stade olympique de la Pontaise",
+        "city": "Lausanne",
+        "capacity": 50300
+      },
+      {
+        "name": "Cornaredo Stadium",
+        "city": "Lugano",
+        "capacity": 35800
+      },
+      {
+        "name": "Charmilles Stadium",
+        "city": "Geneva",
+        "capacity": 35997
+      }
+    ]
+  },
+  {
+    "year": 1958,
+    "wikipediapage": "1958 FIFA World Cup",
+    "host": "Sweden",
+    "beginning": "1958-06-08",
+    "ending": "1958-06-29",
+    "teamcount": 16,
+    "champions": "Brazil",
+    "secondplace": "Sweden",
+    "thirdplace": "France",
+    "fourthplace": "West Germany",
+    "matchcount": 35,
+    "goalcount": 126,
+    "attendance": 819810,
+    "venues": [
+      {
+        "name": "Malmö Stadion",
+        "city": "Malmö",
+        "capacity": 30000
+      },
+      {
+        "name": "Olympia",
+        "city": "Helsingborg",
+        "capacity": 27000
+      },
+      {
+        "name": "Ryavallen",
+        "city": "Borås",
+        "capacity": 15000
+      },
+      {
+        "name": "Rimnersvallen",
+        "city": "Uddevalla",
+        "capacity": 17778
+      },
+      {
+        "name": "Tunavallen",
+        "city": "Eskilstuna",
+        "capacity": 22000
+      },
+      {
+        "name": "Arosvallen",
+        "city": "Västerås",
+        "capacity": 10000
+      },
+      {
+        "name": "Jernvallen",
+        "city": "Sandviken",
+        "capacity": 20000
+      },
+      {
+        "name": "Örjans Vall",
+        "city": "Halmstad",
+        "capacity": 15000
+      },
+      {
+        "name": "Idrottsparken",
+        "city": "Norrköping",
+        "capacity": 20000
+      },
+      {
+        "name": "Eyravallen",
+        "city": "Örebro",
+        "capacity": 13000
+      },
+      {
+        "name": "Råsunda Stadium",
+        "city": "Solna",
+        "capacity": 52400
+      },
+      {
+        "name": "Ullevi Stadium",
+        "city": "Gothenburg",
+        "capacity": 53500
+      }
+    ]
+  },
+  {
+    "year": 1962,
+    "wikipediapage": "1962 FIFA World Cup",
+    "host": "Chile",
+    "beginning": "1962-05-30",
+    "ending": "1962-06-17",
+    "teamcount": 16,
+    "champions": "Brazil",
+    "secondplace": "Czechoslovakia",
+    "thirdplace": "Chile",
+    "fourthplace": "Yugoslavia",
+    "matchcount": 32,
+    "goalcount": 89,
+    "attendance": 893172,
+    "venues": [
+      {
+        "name": "Estadio Braden Copper Co.",
+        "city": "Rancagua",
+        "capacity": 18000
+      },
+      {
+        "name": "Estadio Nacional",
+        "city": "Santiago",
+        "capacity": 66660
+      },
+      {
+        "name": "Estadio Sausalito",
+        "city": "Viña del Mar",
+        "capacity": 18037
+      },
+      {
+        "name": "Estadio Carlos Dittborn",
+        "city": "Arica",
+        "capacity": 17786
+      }
+    ]
+  },
+  {
+    "year": 1966,
+    "wikipediapage": "1966 FIFA World Cup",
+    "host": "England",
+    "beginning": "1966-07-11",
+    "ending": "1966-07-30",
+    "teamcount": 16,
+    "champions": "England",
+    "secondplace": "West Germany",
+    "thirdplace": "Portugal",
+    "fourthplace": "Soviet Union",
+    "matchcount": 32,
+    "goalcount": 89,
+    "attendance": 1563135,
+    "venues": [
+      {
+        "name": "Villa Park",
+        "city": "Birmingham",
+        "capacity": 52000
+      },
+      {
+        "name": "White City Stadium",
+        "city": "London",
+        "capacity": 76567
+      },
+      {
+        "name": "Hillsborough Stadium",
+        "city": "Sheffield",
+        "capacity": 42730
+      },
+      {
+        "name": "Roker Park",
+        "city": "Sunderland",
+        "capacity": 40310
+      },
+      {
+        "name": "Goodison Park",
+        "city": "Liverpool",
+        "capacity": 50151
+      },
+      {
+        "name": "Ayresome Park",
+        "city": "Middlesbrough",
+        "capacity": 40000
+      },
+      {
+        "name": "Wembley Stadium",
+        "city": "London",
+        "capacity": 98600
+      },
+      {
+        "name": "Old Trafford",
+        "city": "Manchester",
+        "capacity": 58000
+      }
+    ]
+  },
+  {
+    "year": 1970,
+    "wikipediapage": "1970 FIFA World Cup",
+    "host": "Mexico",
+    "beginning": "1970-05-31",
+    "ending": "1970-06-21",
+    "teamcount": 16,
+    "champions": "Brazil",
+    "secondplace": "Italy",
+    "thirdplace": "West Germany",
+    "fourthplace": "Uruguay",
+    "matchcount": 32,
+    "goalcount": 95,
+    "attendance": 1604065,
+    "venues": [
+      {
+        "name": "Estadio Jalisco",
+        "city": "Guadalajara",
+        "capacity": 71100
+      },
+      {
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "capacity": 107247
+      },
+      {
+        "name": "Estadio Luis Dosal",
+        "city": "Toluca",
+        "capacity": 26900
+      },
+      {
+        "name": "Estadio Nou Camp",
+        "city": "León",
+        "capacity": 23609
+      },
+      {
+        "name": "Estadio Cuauhtémoc",
+        "city": "Puebla",
+        "capacity": 35563
+      }
+    ]
+  },
+  {
+    "year": 1974,
+    "wikipediapage": "1974 FIFA World Cup",
+    "host": "West Germany",
+    "beginning": "1974-06-13",
+    "ending": "1974-07-07",
+    "teamcount": 16,
+    "champions": "West Germany",
+    "secondplace": "Netherlands",
+    "thirdplace": "Poland",
+    "fourthplace": "Brazil",
+    "matchcount": 38,
+    "goalcount": 97,
+    "attendance": 1865762,
+    "venues": [
+      {
+        "name": "Neckarstadion",
+        "city": "Stuttgart",
+        "capacity": 72200
+      },
+      {
+        "name": "Olympiastadion",
+        "city": "Munich",
+        "capacity": 77573
+      },
+      {
+        "name": "Waldstadion",
+        "city": "Frankfurt",
+        "capacity": 62200
+      },
+      {
+        "name": "Westfalenstadion",
+        "city": "Dortmund",
+        "capacity": 53600
+      },
+      {
+        "name": "Niedersachsenstadion",
+        "city": "Hanover",
+        "capacity": 60400
+      },
+      {
+        "name": "Olympiastadion",
+        "city": "Berlin",
+        "capacity": 86000
+      },
+      {
+        "name": "Rheinstadion",
+        "city": "Düsseldorf",
+        "capacity": 70100
+      },
+      {
+        "name": "Volksparkstadion",
+        "city": "Hamburg",
+        "capacity": 61300
+      },
+      {
+        "name": "Parkstadion",
+        "city": "Gelsenkirchen",
+        "capacity": 72000
+      }
+    ]
+  },
+  {
+    "year": 1978,
+    "wikipediapage": "1978 FIFA World Cup",
+    "host": "Argentina",
+    "beginning": "1978-06-01",
+    "ending": "1978-06-25",
+    "teamcount": 16,
+    "champions": "Argentina",
+    "secondplace": "Netherlands",
+    "thirdplace": "Brazil",
+    "fourthplace": "Italy",
+    "matchcount": 38,
+    "goalcount": 102,
+    "attendance": 1545791,
+    "venues": [
+      {
+        "name": "Estadio José María Minella",
+        "city": "Mar del Plata",
+        "capacity": 43542
+      },
+      {
+        "name": "Estadio Monumental",
+        "city": "Buenos Aires",
+        "capacity": 74624
+      },
+      {
+        "name": "José Amalfitani Stadium",
+        "city": "Buenos Aires",
+        "capacity": 49318
+      },
+      {
+        "name": "Estadio Chateau Carreras",
+        "city": "Córdoba",
+        "capacity": 46986
+      },
+      {
+        "name": "Estadio Ciudad de Mendoza",
+        "city": "Mendoza",
+        "capacity": 34954
+      },
+      {
+        "name": "Estadio Gigante de Arroyito",
+        "city": "Rosario",
+        "capacity": 41654
+      }
+    ]
+  },
+  {
+    "year": 1982,
+    "wikipediapage": "1982 FIFA World Cup",
+    "host": "Spain",
+    "beginning": "1982-06-13",
+    "ending": "1982-07-11",
+    "teamcount": 24,
+    "champions": "Italy",
+    "secondplace": "West Germany",
+    "thirdplace": "Poland",
+    "fourthplace": "France",
+    "matchcount": 52,
+    "goalcount": 146,
+    "attendance": 2109723,
+    "venues": [
+      {
+        "name": "La Rosaleda",
+        "city": "Málaga",
+        "capacity": 45000
+      },
+      {
+        "name": "Benito Villamarín",
+        "city": "Sevilla",
+        "capacity": 50253
+      },
+      {
+        "name": "Carlos Tartiere",
+        "city": "Oviedo",
+        "capacity": 23500
+      },
+      {
+        "name": "Vicente Calderón",
+        "city": "Madrid",
+        "capacity": 65695
+      },
+      {
+        "name": "José Zorrilla",
+        "city": "Valladolid",
+        "capacity": 30043
+      },
+      {
+        "name": "Luis Casanova",
+        "city": "Valencia",
+        "capacity": 49562
+      },
+      {
+        "name": "La Romareda",
+        "city": "Zaragoza",
+        "capacity": 41806
+      },
+      {
+        "name": "Ramón Sánchez Pizjuán",
+        "city": "Sevilla",
+        "capacity": 68110
+      },
+      {
+        "name": "Camp Nou",
+        "city": "Barcelona",
+        "capacity": 121401
+      },
+      {
+        "name": "José Rico Pérez",
+        "city": "Alicante",
+        "capacity": 32500
+      },
+      {
+        "name": "Riazor",
+        "city": "A Coruña",
+        "capacity": 34190
+      },
+      {
+        "name": "Sarrià",
+        "city": "Barcelona",
+        "capacity": 40400
+      },
+      {
+        "name": "Nuevo Estadio",
+        "city": "Elche",
+        "capacity": 53290
+      },
+      {
+        "name": "El Molinón",
+        "city": "Gijón",
+        "capacity": 45153
+      },
+      {
+        "name": "Balaídos",
+        "city": "Vigo",
+        "capacity": 33000
+      },
+      {
+        "name": "San Mamés",
+        "city": "Bilbao",
+        "capacity": 46223
+      },
+      {
+        "name": "Santiago Bernabéu",
+        "city": "Madrid",
+        "capacity": 90089
+      }
+    ]
+  },
+  {
+    "year": 1986,
+    "wikipediapage": "1986 FIFA World Cup",
+    "host": "Mexico",
+    "beginning": "1986-05-31",
+    "ending": "1986-06-29",
+    "teamcount": 24,
+    "champions": "Argentina",
+    "secondplace": "West Germany",
+    "thirdplace": "France",
+    "fourthplace": "Belgium",
+    "matchcount": 52,
+    "goalcount": 132,
+    "attendance": 2394031,
+    "venues": [
+      {
+        "name": "Estadio Universitario",
+        "city": "San Nicolás de los Garza",
+        "capacity": 43780
+      },
+      {
+        "name": "Estadio Nemesio Díez",
+        "city": "Toluca",
+        "capacity": 32612
+      },
+      {
+        "name": "Estadio Tecnológico",
+        "city": "Monterrey",
+        "capacity": 33805
+      },
+      {
+        "name": "Estadio Jalisco",
+        "city": "Guadalajara",
+        "capacity": 71100
+      },
+      {
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "capacity": 107247
+      },
+      {
+        "name": "Estadio Neza 86",
+        "city": "Nezahualcóyotl",
+        "capacity": 34536
+      },
+      {
+        "name": "Estadio Olímpico Universitario",
+        "city": "Mexico City",
+        "capacity": 72212
+      },
+      {
+        "name": "Estadio Nou Camp",
+        "city": "León",
+        "capacity": 23609
+      },
+      {
+        "name": "Estadio Tres de Marzo",
+        "city": "Zapopan",
+        "capacity": 30015
+      },
+      {
+        "name": "Estadio Cuauhtémoc",
+        "city": "Puebla",
+        "capacity": 35563
+      },
+      {
+        "name": "Estadio Sergio León Chávez",
+        "city": "Irapuato",
+        "capacity": 31336
+      },
+      {
+        "name": "Estadio La Corregidora",
+        "city": "Querétaro",
+        "capacity": 38576
+      }
+    ]
+  },
+  {
+    "year": 1990,
+    "wikipediapage": "1990 FIFA World Cup",
+    "host": "Italy",
+    "beginning": "1990-06-08",
+    "ending": "1990-07-08",
+    "teamcount": 24,
+    "champions": "West Germany",
+    "secondplace": "Argentina",
+    "thirdplace": "Italy",
+    "fourthplace": "England",
+    "matchcount": 52,
+    "goalcount": 115,
+    "attendance": 2516215,
+    "venues": [
+      {
+        "name": "Stadio delle Alpi",
+        "city": "Turin",
+        "capacity": 62628
+      },
+      {
+        "name": "Stadio Comunale",
+        "city": "Florence",
+        "capacity": 38971
+      },
+      {
+        "name": "Stadio Renato Dall'Ara",
+        "city": "Bologna",
+        "capacity": 34520
+      },
+      {
+        "name": "Stadio San Siro",
+        "city": "Milan",
+        "capacity": 55000
+      },
+      {
+        "name": "Stadio San Paolo",
+        "city": "Naples",
+        "capacity": 59978
+      },
+      {
+        "name": "Stadio San Nicola",
+        "city": "Bari",
+        "capacity": 51426
+      },
+      {
+        "name": "Stadio Marc'Antonio Bentegodi",
+        "city": "Verona",
+        "capacity": 35950
+      },
+      {
+        "name": "Stadio Luigi Ferraris",
+        "city": "Genoa",
+        "capacity": 36703
+      },
+      {
+        "name": "Stadio Olimpico",
+        "city": "Rome",
+        "capacity": 73603
+      },
+      {
+        "name": "Stadio Sant'Elia",
+        "city": "Cagliari",
+        "capacity": 35238
+      },
+      {
+        "name": "Stadio Friuli",
+        "city": "Udine",
+        "capacity": 35713
+      },
+      {
+        "name": "Stadio La Favorita",
+        "city": "Palermo",
+        "capacity": 33288
+      }
+    ]
+  },
+  {
+    "year": 1994,
+    "wikipediapage": "1994 FIFA World Cup",
+    "host": "United States",
+    "beginning": "1994-06-17",
+    "ending": "1994-07-17",
+    "teamcount": 24,
+    "champions": "Brazil",
+    "secondplace": "Italy",
+    "thirdplace": "Sweden",
+    "fourthplace": "Bulgaria",
+    "matchcount": 52,
+    "goalcount": 141,
+    "attendance": 3597042,
+    "venues": [
+      {
+        "name": "Soldier Field",
+        "city": "Chicago",
+        "capacity": 63160
+      },
+      {
+        "name": "Rose Bowl",
+        "city": "Pasadena",
+        "capacity": 94194
+      },
+      {
+        "name": "Cotton Bowl",
+        "city": "Dallas",
+        "capacity": 64000
+      },
+      {
+        "name": "Pontiac Silverdome",
+        "city": "Pontiac",
+        "capacity": 77557
+      },
+      {
+        "name": "Foxboro Stadium",
+        "city": "Foxborough",
+        "capacity": 54456
+      },
+      {
+        "name": "Citrus Bowl",
+        "city": "Orlando",
+        "capacity": 62387
+      },
+      {
+        "name": "Stanford Stadium",
+        "city": "San Francisco",
+        "capacity": 84147
+      },
+      {
+        "name": "Giants Stadium",
+        "city": "East Rutherford",
+        "capacity": 76322
+      },
+      {
+        "name": "Robert F. Kennedy Memorial Stadium",
+        "city": "Washington",
+        "capacity": 53121
+      }
+    ]
+  },
+  {
+    "year": 1998,
+    "wikipediapage": "1998 FIFA World Cup",
+    "host": "France",
+    "beginning": "1998-06-10",
+    "ending": "1998-07-12",
+    "teamcount": 32,
+    "champions": "France",
+    "secondplace": "Brazil",
+    "thirdplace": "Croatia",
+    "fourthplace": "Netherlands",
+    "matchcount": 64,
+    "goalcount": 171,
+    "attendance": 2784687,
+    "venues": [
+      {
+        "name": "Stade de Gerland",
+        "city": "Lyon",
+        "capacity": 44000
+      },
+      {
+        "name": "Stade de la Beaujoire",
+        "city": "Nantes",
+        "capacity": 39500
+      },
+      {
+        "name": "Parc des Princes",
+        "city": "Paris",
+        "capacity": 40000
+      },
+      {
+        "name": "Stade Félix-Bollaert",
+        "city": "Lens",
+        "capacity": 41300
+      },
+      {
+        "name": "Stade Geoffroy-Guichard",
+        "city": "Saint-Étienne",
+        "capacity": 36000
+      },
+      {
+        "name": "Stade Vélodrome",
+        "city": "Marseille",
+        "capacity": 48000
+      },
+      {
+        "name": "Stade de la Mosson",
+        "city": "Montpellier",
+        "capacity": 34000
+      },
+      {
+        "name": "Stadium de Toulouse",
+        "city": "Toulouse",
+        "capacity": 37000
+      },
+      {
+        "name": "Stade de France",
+        "city": "Saint-Denis",
+        "capacity": 80000
+      },
+      {
+        "name": "Parc Lescure",
+        "city": "Bordeaux",
+        "capacity": 34694
+      }
+    ]
+  },
+  {
+    "year": 2002,
+    "wikipediapage": "2002 FIFA World Cup",
+    "host": "South Korea & Japan",
+    "beginning": "2002-05-31",
+    "ending": "2002-06-30",
+    "teamcount": 32,
+    "champions": "Brazil",
+    "secondplace": "Germany",
+    "thirdplace": "Turkey",
+    "fourthplace": "South Korea",
+    "matchcount": 64,
+    "goalcount": 161,
+    "attendance": 2705197,
+    "venues": [
+      {
+        "name": "Gwangju World Cup Stadium",
+        "city": "Gwangju",
+        "capacity": 42880
+      },
+      {
+        "name": "Nagai Stadium",
+        "city": "Osaka",
+        "capacity": 50000
+      },
+      {
+        "name": "Jeju World Cup Stadium",
+        "city": "Seogwipo",
+        "capacity": 42256
+      },
+      {
+        "name": "Kobe Wing Stadium",
+        "city": "Kobe",
+        "capacity": 42000
+      },
+      {
+        "name": "Ōita Stadium",
+        "city": "Ōita",
+        "capacity": 43000
+      },
+      {
+        "name": "Busan Asiad Stadium",
+        "city": "Busan",
+        "capacity": 55982
+      },
+      {
+        "name": "Suwon World Cup Stadium",
+        "city": "Suwon",
+        "capacity": 43188
+      },
+      {
+        "name": "International Stadium Yokohama",
+        "city": "Yokohama",
+        "capacity": 72327
+      },
+      {
+        "name": "Daegu World Cup Stadium",
+        "city": "Daegu",
+        "capacity": 68014
+      },
+      {
+        "name": "Miyagi Stadium",
+        "city": "Miyagi",
+        "capacity": 49000
+      },
+      {
+        "name": "Incheon World Cup Stadium",
+        "city": "Incheon",
+        "capacity": 52179
+      },
+      {
+        "name": "Ulsan Munsu Football Stadium",
+        "city": "Ulsan",
+        "capacity": 43550
+      },
+      {
+        "name": "Niigata Stadium",
+        "city": "Niigata",
+        "capacity": 42300
+      },
+      {
+        "name": "Saitama Stadium",
+        "city": "Saitama",
+        "capacity": 63000
+      },
+      {
+        "name": "Daejeon World Cup Stadium",
+        "city": "Daejeon",
+        "capacity": 40407
+      },
+      {
+        "name": "Kashima Stadium",
+        "city": "Kashima",
+        "capacity": 42000
+      },
+      {
+        "name": "Jeonju World Cup Stadium",
+        "city": "Jeonju",
+        "capacity": 42391
+      },
+      {
+        "name": "Seoul World Cup Stadium",
+        "city": "Seoul",
+        "capacity": 63961
+      },
+      {
+        "name": "Sapporo Dome",
+        "city": "Sapporo",
+        "capacity": 42000
+      },
+      {
+        "name": "Shizuoka Stadium ECOPA",
+        "city": "Shizuoka",
+        "capacity": 50600
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "wikipediapage": "2006 FIFA World Cup",
+    "host": "Germany",
+    "beginning": "2006-06-09",
+    "ending": "2006-07-09",
+    "teamcount": 32,
+    "champions": "Italy",
+    "secondplace": "France",
+    "thirdplace": "Germany",
+    "fourthplace": "Portugal",
+    "matchcount": 64,
+    "goalcount": 147,
+    "attendance": 3359439,
+    "venues": [
+      {
+        "name": "easyCredit-Stadion",
+        "city": "Nuremberg",
+        "capacity": 41000
+      },
+      {
+        "name": "AOL Arena",
+        "city": "Hamburg",
+        "capacity": 50000
+      },
+      {
+        "name": "Fritz-Walter-Stadion",
+        "city": "Kaiserslautern",
+        "capacity": 46000
+      },
+      {
+        "name": "AWD-Arena",
+        "city": "Hanover",
+        "capacity": 43000
+      },
+      {
+        "name": "RheinEnergieStadion",
+        "city": "Cologne",
+        "capacity": 45000
+      },
+      {
+        "name": "Zentralstadion",
+        "city": "Leipzig",
+        "capacity": 43000
+      },
+      {
+        "name": "Olympiastadion",
+        "city": "Berlin",
+        "capacity": 86000
+      },
+      {
+        "name": "Commerzbank-Arena",
+        "city": "Frankfurt",
+        "capacity": 48000
+      },
+      {
+        "name": "Gottlieb-Daimler-Stadion",
+        "city": "Stuttgart",
+        "capacity": 52000
+      },
+      {
+        "name": "Allianz Arena",
+        "city": "Munich",
+        "capacity": 66000
+      },
+      {
+        "name": "Signal Iduna Park",
+        "city": "Dortmund",
+        "capacity": 65000
+      },
+      {
+        "name": "Arena AufSchalke",
+        "city": "Gelsenkirchen",
+        "capacity": 52000
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "wikipediapage": "2010 FIFA World Cup",
+    "host": "South Africa",
+    "beginning": "2010-06-11",
+    "ending": "2010-07-11",
+    "teamcount": 32,
+    "champions": "Spain",
+    "secondplace": "Netherlands",
+    "thirdplace": "Germany",
+    "fourthplace": "Uruguay",
+    "matchcount": 64,
+    "goalcount": 145,
+    "attendance": 3178856,
+    "venues": [
+      {
+        "name": "Moses Mabhida Stadium",
+        "city": "Durban",
+        "capacity": 62760
+      },
+      {
+        "name": "Mbombela Stadium",
+        "city": "Nelspruit",
+        "capacity": 40929
+      },
+      {
+        "name": "Royal Bafokeng Stadium",
+        "city": "Rustenburg",
+        "capacity": 38646
+      },
+      {
+        "name": "Loftus Versfeld Stadium",
+        "city": "Pretoria",
+        "capacity": 42858
+      },
+      {
+        "name": "Free State Stadium",
+        "city": "Bloemfontein",
+        "capacity": 40911
+      },
+      {
+        "name": "Nelson Mandela Bay Stadium",
+        "city": "Port Elizabeth",
+        "capacity": 42486
+      },
+      {
+        "name": "Peter Mokaba Stadium",
+        "city": "Polokwane",
+        "capacity": 41733
+      },
+      {
+        "name": "FNB Stadium",
+        "city": "Johannesburg",
+        "capacity": 84490
+      },
+      {
+        "name": "Cape Town Stadium",
+        "city": "Cape Town",
+        "capacity": 64100
+      },
+      {
+        "name": "Ellis Park Stadium",
+        "city": "Johannesburg",
+        "capacity": 55686
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "wikipediapage": "2014 FIFA World Cup",
+    "host": "Brazil",
+    "beginning": "2014-06-12",
+    "ending": "2014-07-13",
+    "teamcount": 32,
+    "champions": "Germany",
+    "secondplace": "Argentina",
+    "thirdplace": "Netherlands",
+    "fourthplace": "Brazil",
+    "matchcount": 64,
+    "goalcount": 171,
+    "attendance": 3429873,
+    "venues": [
+      {
+        "name": "Arena Pantanal",
+        "city": "Cuiabá",
+        "capacity": 41112
+      },
+      {
+        "name": "Estádio Castelão",
+        "city": "Fortaleza",
+        "capacity": 60348
+      },
+      {
+        "name": "Estádio Nacional",
+        "city": "Brasília",
+        "capacity": 69432
+      },
+      {
+        "name": "Arena Pernambuco",
+        "city": "Recife",
+        "capacity": 42583
+      },
+      {
+        "name": "Estádio Beira-Rio",
+        "city": "Porto Alegre",
+        "capacity": 43394
+      },
+      {
+        "name": "Arena de São Paulo",
+        "city": "São Paulo",
+        "capacity": 63321
+      },
+      {
+        "name": "Arena da Baixada",
+        "city": "Curitiba",
+        "capacity": 39631
+      },
+      {
+        "name": "Estádio Mineirão",
+        "city": "Belo Horizonte",
+        "capacity": 58259
+      },
+      {
+        "name": "Arena das Dunas",
+        "city": "Natal",
+        "capacity": 39971
+      },
+      {
+        "name": "Arena Fonte Nova",
+        "city": "Salvador",
+        "capacity": 51708
+      },
+      {
+        "name": "Arena da Amazônia",
+        "city": "Manaus",
+        "capacity": 40549
+      },
+      {
+        "name": "Estádio do Maracanã",
+        "city": "Rio de Janeiro",
+        "capacity": 200000
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "wikipediapage": "2018 FIFA World Cup",
+    "host": "Russia",
+    "beginning": "2018-06-14",
+    "ending": "2018-07-15",
+    "teamcount": 32,
+    "champions": "France",
+    "secondplace": "Croatia",
+    "thirdplace": "Belgium",
+    "fourthplace": "England",
+    "matchcount": 64,
+    "goalcount": 169,
+    "attendance": 3031768,
+    "venues": [
+      {
+        "name": "Rostov Arena",
+        "city": "Rostov-on-Don",
+        "capacity": 43472
+      },
+      {
+        "name": "Samara Arena",
+        "city": "Samara",
+        "capacity": 41970
+      },
+      {
+        "name": "Luzhniki Stadium",
+        "city": "Moscow",
+        "capacity": 78011
+      },
+      {
+        "name": "Central Stadium",
+        "city": "Yekaterinburg",
+        "capacity": 33061
+      },
+      {
+        "name": "Kazan Arena",
+        "city": "Kazan",
+        "capacity": 42873
+      },
+      {
+        "name": "Otkritie Arena",
+        "city": "Moscow",
+        "capacity": 44190
+      },
+      {
+        "name": "Mordovia Arena",
+        "city": "Saransk",
+        "capacity": 41685
+      },
+      {
+        "name": "Kaliningrad Stadium",
+        "city": "Kaliningrad",
+        "capacity": 33973
+      },
+      {
+        "name": "Krestovsky Stadium",
+        "city": "Saint Petersburg",
+        "capacity": 64468
+      },
+      {
+        "name": "Nizhny Novgorod Stadium",
+        "city": "Nizhny Novgorod",
+        "capacity": 43319
+      },
+      {
+        "name": "Volgograd Arena",
+        "city": "Volgograd",
+        "capacity": 43713
+      },
+      {
+        "name": "Fisht Olympic Stadium",
+        "city": "Sochi",
+        "capacity": 44287
+      }
+    ]
+  }
+]

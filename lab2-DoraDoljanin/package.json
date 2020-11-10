@@ -1,0 +1,19 @@
+{
+    "name": "worldcups",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "express"
+    ],
+    "dependencies": {
+        "datatables.net": "^1.10.22",
+        "datatables.net-dt": "^1.10.22",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "pg": "^8.4.2"
+    }
+}

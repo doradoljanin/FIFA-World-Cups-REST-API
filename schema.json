@@ -1,0 +1,156 @@
+{
+   "$schema": "http://json-schema.org/draft-07/schema",
+   "$id": "https://or.fer.unizg.hr/wc.json",
+   "type": "array",
+   "title": "FIFA WorldCups",
+   "description": "FIFA WorldCups Data Set for Open Computing assignment.",
+   "additionalItems": true,
+   "items": {
+      "$id": "#/items",
+      "anyOf": [{
+         "$id": "#/items/anyOf/0",
+         "type": "object",
+         "title": "A form of the object 'worldcup'",
+         "description": "Information about a FIFA WorldCup.",
+         "required": [
+            "year",
+            "wikipediapage",
+            "host",
+            "beginning",
+            "ending",
+            "teamcount",
+            "champions",
+            "secondplace",
+            "thirdplace",
+            "fourthplace",
+            "matchcount",
+            "goalcount",
+            "attendance",
+            "venues"
+         ],
+         "properties": {
+            "year": {
+               "$id": "#/items/anyOf/0/properties/year",
+               "type": "integer",
+               "title": "year",
+               "description": "The year the worldcup was held."
+            },
+            "wikipediapage": {
+               "$id": "#/items/anyOf/0/properties/wikipediapage",
+               "type": "string",
+               "title": "wikipediapage",
+               "description": "A wikipedia handle of the worldcup."
+            },
+            "host": {
+               "$id": "#/items/anyOf/0/properties/host",
+               "type": "string",
+               "title": "host",
+               "description": "The host country of the worldcup."
+            },
+            "beginning": {
+               "$id": "#/items/anyOf/0/properties/beginning",
+               "type": "string",
+               "title": "beginning",
+               "description": "The beginning date of the worldcup."
+            },
+            "ending": {
+               "$id": "#/items/anyOf/0/properties/ending",
+               "type": "string",
+               "title": "ending",
+               "description": "The ending date of the worldcup."
+            },
+            "teamcount": {
+               "$id": "#/items/anyOf/0/properties/teamcount",
+               "type": "integer",
+               "title": "teamcount",
+               "description": "A number of teams that participated in the worldcup."
+            },
+            "champions": {
+               "$id": "#/items/anyOf/0/properties/champions",
+               "type": "string",
+               "title": "champions",
+               "description": "The champions of the worldcup."
+            },
+            "secondplace": {
+               "$id": "#/items/anyOf/0/properties/secondplace",
+               "type": "string",
+               "title": "secondplace",
+               "description": "A name of the country that won 2nd place."
+            },
+            "thirdplace": {
+               "$id": "#/items/anyOf/0/properties/thirdplace",
+               "type": "string",
+               "title": "thirdplace",
+               "description": "A name of the country that won 3rd place."
+            },
+            "fourthplace": {
+               "$id": "#/items/anyOf/0/properties/fourthplace",
+               "type": "string",
+               "title": "fourthplace",
+               "description": "A name of the country that won 4th place."
+            },
+            "matchcount": {
+               "$id": "#/items/anyOf/0/properties/matchcount",
+               "type": "integer",
+               "title": "matchcount",
+               "description": "A number of matches played during the worldcup."
+            },
+            "goalcount": {
+               "$id": "#/items/anyOf/0/properties/goalcount",
+               "type": "integer",
+               "title": "goalcount",
+               "description": "A number of goals scored during the competition."
+            },
+            "attendance": {
+               "$id": "#/items/anyOf/0/properties/attendance",
+               "type": "integer",
+               "title": "attendance",
+               "description": "A number of people who attended the Cup (the audience)."
+            },
+            "venues": {
+               "$id": "#/items/anyOf/0/properties/venues",
+               "type": "array",
+               "title": "venues",
+               "description": "A list of venues where matches of the worldcup took place.",
+               "additionalItems": true,
+               "items": {
+                  "$id": "#/items/anyOf/0/properties/venues/items",
+                  "anyOf": [{
+                     "$id": "#/items/anyOf/0/properties/venues/items/anyOf/0",
+                     "type": "object",
+                     "title": "A form of the object 'venue'",
+                     "description": "Information about a venue.",
+                     "required": [
+                        "name",
+                        "city",
+                        "capacity"
+                     ],
+                     "properties": {
+                        "name": {
+                           "$id": "#/items/anyOf/0/properties/venues/items/anyOf/0/properties/name",
+                           "type": "string",
+                           "title": "name",
+                           "description": "A name of the venue."
+                        },
+                        "city": {
+                           "$id": "#/items/anyOf/0/properties/venues/items/anyOf/0/properties/city",
+                           "type": "string",
+                           "title": "city",
+                           "description": "A city where the venue is located in."
+                        },
+                        "capacity": {
+                           "$id": "#/items/anyOf/0/properties/venues/items/anyOf/0/properties/capacity",
+                           "type": "integer",
+                           "title": "capacity",
+                           "description": "The number of people the stadium can accommodate."
+                        }
+                     },
+                     "additionalProperties": true
+                  }]
+               }
+            }
+         },
+         "additionalProperties": true
+      }]
+   }
+}
