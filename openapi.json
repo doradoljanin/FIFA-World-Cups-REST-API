@@ -1,0 +1,519 @@
+﻿{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "FIFA WorldCups",
+    "contact": {
+      "name": "Dora Doljanin",
+      "url": "https://github.com/doradoljanin",
+      "email": "doljanin.dora@gmail.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "version": "1.0"
+  },
+  "paths": {
+    //path item object za krajnju točku /venues
+    "/venues": {
+      //Operation Object
+      "get": {
+        "description": "List all venues",
+        "operationId": "listVenues",
+        "responses": {
+          "200": {
+            "description": "Fetch successfull",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Venues"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      //Operation Object
+      "post": {
+        "description": "Creates a venue",
+        "operationId": "createVenue",
+        "requestBody": {
+          "description": "A venue schema",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Venue"
+              },
+              "example": {
+                "name": "Poljud",
+                "city": "Split",
+                "capacity": "35000"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "A new venue created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Venue"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    //path item object za krajnju točku /worldcups
+    "/worldcups": {
+      //Operation Object
+      "get": {
+        "description": "List all worldcups",
+        "operationId": "listWorldcups",
+        "responses": {
+          "200": {
+            "description": "Fetch successfull",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Worldcups"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    //path item object za krajnju točku /worldcups/{year}
+    "/worldcups/{year}": {
+      //Operation Object
+      "get": {
+        "description": "Info for a specific worldcup",
+        "operationId": "showWorldcupByYear",
+        "parameters": [
+          {
+            "name": "year",
+            "in": "path",
+            "description": "The year of the worldcup to retrieve",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetch successfull",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Worldcup"
+                }
+              }
+            },
+            "links": {
+              "venues": {
+                "operationId": "listVenues"
+
+              }
+            }
+          },
+          "404": {
+            "description": "Resource not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    //path item object za krajnju točku /worldcups/{year}/venues
+    "/worldcups/{year}/venues": {
+      //Operation Object
+      "get": {
+        "description": "List all venues for a specific worldcup",
+        "operationId": "listWorldcupVenues",
+        "parameters": [
+          {
+            "name": "year",
+            "in": "path",
+            "description": "The year of the worldcup whose venues to retrieve",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetch successfull",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Venues"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Resource not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    //path item object za krajnju točku /venues/{id}
+    "/venues/{id}": {
+      //Operation Object
+      "get": {
+        "description": "Returns a venue with the given id",
+        "operationId": "showVenueById",
+        "parameters": [
+          {
+            "name": "venueId",
+            "in": "path",
+            "required": true,
+            "description": "The id of the venue to retrieve",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetch successfull",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Venue"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Resource not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      //Operation Object
+      "put": {
+        "description": "Updates a venue with the given id",
+        "operationId": "updateVenue",
+        "parameters": [
+          {
+            "name": "venueId",
+            "in": "path",
+            "required": true,
+            "description": "The id of the venue to update",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "One or more attributes from a venue schema",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Venue"
+              },
+              "example": {
+                "capacity": "65000"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Update successfull",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Venue"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Resource not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      //Operation Object
+      "delete": {
+        "description": "Deletes a single venue based on the ID supplied",
+        "operationId": "deleteVenue",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of venue to delete",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Venue deleted"
+          },
+          "404": {
+            "description": "Resource not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Venue": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "city",
+          "capacity"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "name": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "capacity": {
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      },
+      "Venues": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Venue"
+        }
+      },
+      "Worldcup": {
+        "type": "object",
+        "required": [
+          "year",
+          "wikipediapage",
+          "host",
+          "beginning",
+          "ending",
+          "teamcount",
+          "champions",
+          "secondplace",
+          "thirdplace",
+          "fourthplace",
+          "matchcount"
+        ],
+        "properties": {
+          "year": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "wikipediapage": {
+            "type": "string"
+          },
+          "host": {
+            "type": "string"
+          },
+          "beginning": {
+            "type": "string"
+          },
+          "ending": {
+            "type": "string"
+          },
+          "teamcount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "champions": {
+            "type": "string"
+          },
+          "secondplace": {
+            "type": "string"
+          },
+          "thirdplace": {
+            "type": "string"
+          },
+          "fourthplace": {
+            "type": "string"
+          },
+          "matchcount": {
+            "type": "string"
+          }
+        }
+      },
+      "Worldcups": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Worldcup"
+        }
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
