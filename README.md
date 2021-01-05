@@ -26,7 +26,7 @@ respresented in a dynamic searchable **datatable** or by an **API**.
 The data is available in JSON, CSV and as a backup of an original data base (.sql file).
 
 ### Instructions
-Run `nodemon index` in terminal before using an API.
+Run `nodemon index` to start the API.
 
 ### License
 MIT License: https://opensource.org/licenses/MIT
