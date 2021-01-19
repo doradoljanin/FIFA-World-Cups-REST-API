@@ -184,6 +184,59 @@
         }
       }
     },
+    //path item object za krajnju točku /worldcups/{year}/picture
+    "/worldcups/{year}/picture": {
+      //Operation Object
+      "get": {
+        "description": "Picture for a specific worldcup",
+        "operationId": "showWorldcupPictureByYear",
+        "parameters": [
+          {
+            "name": "year",
+            "in": "path",
+            "description": "The year of the worldcup whose picture to retrieve",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetch successfull",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Picture"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Resource not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
     //path item object za krajnju točku /worldcups/{year}/venues
     "/worldcups/{year}/venues": {
       //Operation Object
@@ -497,6 +550,12 @@
         "items": {
           "$ref": "#/components/schemas/Worldcup"
         }
+      },
+      "Picture": {
+        "type": "object",
+        "required": [
+          "pictureURL"
+        ]
       },
       "Error": {
         "type": "object",

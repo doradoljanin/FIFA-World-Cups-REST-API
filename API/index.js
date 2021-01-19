@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const pool = require("./db")
 const hateoasLinker = require('express-hateoas-links');
+const request = require('request');
 
 app.use(express.json()); //kako bismo mogli pristupiti req.body-u u kojem su zapisani podaci od klijenta (requests)
 
@@ -98,7 +99,8 @@ app.get("/worldcups/:year", async (req, res) => {
       year
    } = req.params;
    try {
-      const worldcup = await pool.query("SELECT * FROM worldcups WHERE year = $1", [year])
+      const worldcup = await pool.query("SELECT * FROM worldcups WHERE year = $1", [year]);
+
       var worldcupResponse;
       const rowCount = worldcup.rowCount;
       //ako ne postoji worldcup s tim year-om -> 404 Not Found
@@ -109,25 +111,125 @@ app.get("/worldcups/:year", async (req, res) => {
             "response": null
          }
          res.status(404);
-      }
-      //ako postoji, vrati dohvaceni objekt
-      else {
-         var worldcupResponse = {
-            "status": "OK",
-            "message": "Fetched worldcup object",
-            "response": {
-               "worldcup": worldcup.rows[0],
-               "links": [{
-                  "href": year + "/venues",
-                  "rel": "venues",
-                  "type": "GET"
-               }]
+         res.json(worldcupResponse);
+      } else {
+         //izvlacimo wikipedia handle za trazeni worldcup
+         const wikiHandle = worldcup.rows[0].wikipediapage;
+
+         var pictureURL = "";
+         var JSONobject = {};
+
+         //integracija s Wikimedia REST API-jem
+         request('https://en.wikipedia.org/api/rest_v1/page/summary/' + wikiHandle, (error, response) => {
+            if (error) {
+               console.log(error)
+               res.send('An erorr occured')
+            } else {
+               //response.body je string, pa ga treba parsirati u JSON objekt
+               JSONobject = JSON.parse(response.body);
+               pictureURL = JSONobject.originalimage.source;
+               var worldcupAttributes = worldcup.rows[0];
+
+               //dodajemo novi atribut JSON objektu s URL-om slike s wikipedije
+               worldcupAttributes["picture"] = pictureURL;
+               //dodajemo kontekst
+               worldcupAttributes["@context"] = {
+                  "host": "https://schema.org/Country",
+                  "beginning": "https://schema.org/DateTime",
+                  "ending": "https://schema.org/DateTime",
+                  "champions": "https://schema.org/Country",
+                  "secondplace": "https://schema.org/Country",
+                  "thirdplace": "https://schema.org/Country",
+                  "fourthplace": "https://schema.org/Country",
+                  "picture": "https://schema.org/URL"
+               };
+
+               var worldcupResponse = {
+                  "status": "OK",
+                  "message": "Fetched worldcup object",
+                  "response": {
+                     "worldcup": worldcupAttributes,
+                     "links": [{
+                           "href": year + "/venues",
+                           "rel": "venues",
+                           "type": "GET"
+                        },
+                        {
+                           "href": year + "/picture",
+                           "rel": "picture",
+                           "type": "GET"
+                        }
+                     ]
+                  }
+               }
+               res.status(200);
+               res.setHeader("Content-Type", "application/json");
+               res.json(worldcupResponse);
             }
-         }
-         res.status(200);
-         res.setHeader("Content-Type", "application/json");
+         });
       }
-      res.json(worldcupResponse);
+   } catch (err) {
+      res.sendStatus(500);
+      console.error(err.message);
+   }
+})
+
+
+//dohvati URL na sliku od odredjenog worldcup-a: GET
+app.get("/worldcups/:year/picture", async (req, res) => {
+   const {
+      year
+   } = req.params;
+   try {
+      const worldcup = await pool.query("SELECT * FROM worldcups WHERE year = $1", [year]);
+      //izvlacimo wikipedia handle za trazeni worldcup
+
+      var worldcupPicResponse;
+      const rowCount = worldcup.rowCount;
+      //ako ne postoji worldcup s tim year-om -> 404 Not Found
+      if (rowCount == 0) {
+         worldcupPicResponse = {
+            "status": "Not Found",
+            "message": "Worldcup with the provided year doesn't exist",
+            "response": null
+         }
+         res.status(404);
+         res.json(worldcupPicResponse);
+      } else {
+         const wikiHandle = worldcup.rows[0].wikipediapage;
+
+         var pictureURL = "";
+         var JSONobject = {};
+
+         //integracija s Wikimedia REST API-jem
+         request('https://en.wikipedia.org/api/rest_v1/page/summary/' + wikiHandle, (error, response) => {
+            if (error) {
+               console.log(error);
+               res.send('An erorr occured')
+            } else {
+
+               //response.body je string, pa ga treba parsirati u JSON objekt
+               JSONobject = JSON.parse(response.body);
+               pictureURL = JSONobject.originalimage.source;
+
+               responseJSON = {};
+
+               responseJSON["pictureURL"] = pictureURL;
+               responseJSON["@context"] = {
+                  "pictureURL": "https://schema.org/URL"
+               };
+
+               var worldcupPicResponse = {
+                  "status": "OK",
+                  "message": "Fetched worldcup picture URL",
+                  "response": responseJSON
+               }
+               res.status(200);
+               res.setHeader("Content-Type", "application/json");
+               res.json(worldcupPicResponse);
+            }
+         });
+      }
    } catch (err) {
       res.sendStatus(500);
       console.error(err.message);

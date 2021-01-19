@@ -11,6 +11,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-hateoas-links": "^1.2.0",
-    "pg": "^8.5.1"
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1",
+    "request": "^2.88.2"
   }
 }
