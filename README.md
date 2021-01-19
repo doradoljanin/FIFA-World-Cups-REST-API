@@ -20,7 +20,7 @@ This repository contains details about all FIFA World Cups which *preceded the m
 * a number of goals scored during the competition
 * a number of people who attended the Cup (the audience)
 
-respresented in a dynamic searchable **datatable** or by an **API**.
+respresented in a dynamic searchable **datatable** or by an **API** integrated with Wikimedia REST API.
 
 ### Formats
 The data is available in JSON, CSV and as a backup of an original data base (.sql file).
